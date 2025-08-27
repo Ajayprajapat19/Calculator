@@ -8,9 +8,9 @@
 body{
     width: 100%;
     height: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-   align-items: center;
+   align-items: center; */
    background: linear-gradient( 90deg,rgb(31, 31, 78), rgb(14, 10, 10));
 }
 .calculator{
@@ -21,8 +21,23 @@ body{
     box-shadow: 0px 5px 10px  rgb(65, 73, 96);
     border-radius: 10px;
     padding: 20px;
-    
+        display: flex;
+    flex-direction: column;
    
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: azure;
+    margin-top: 20px;
+}
+
+.container{
+    height: 90vh;
+    width: ;
+     display: flex;
+    justify-content: center;
+   align-items: center;
 }
 input{
     height: 60px;
@@ -34,6 +49,7 @@ input{
     box-shadow: 0px 5px 10px  rgb(65, 73, 96);
     font-size: 45px;;
     cursor: pointer;
+    color: white;
 }
 
 button{
